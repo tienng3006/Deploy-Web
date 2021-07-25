@@ -1,0 +1,16 @@
+.search-box {
+  input {
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 7px 30px;
+  }
+  button {
+    border: none;
+    outline: none;
+    background: #29c0d1;
+    padding: 8px 10px;
+    i {
+      color: white;
+    }
+  }
+}
