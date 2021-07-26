@@ -1,0 +1,21 @@
+.line-blue {
+  width: 100%;
+  margin-top: 20px;
+  background: #f4f4f4;
+  .container {
+    padding: 10px 0;
+    .row {
+      align-items: center;
+      padding: 15px 0;
+      .polocy-item {
+        background: #e6e6e6;
+        border: 1px solid #ddd;
+        align-items: center;
+        padding: 15px 0;
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

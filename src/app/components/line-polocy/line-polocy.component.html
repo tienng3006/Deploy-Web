@@ -1,0 +1,18 @@
+<div class="line-blue">
+  <div class="container">
+    <div class="row">
+      <div
+        *ngFor="let polocy of listPolocy"
+        class="
+          polocy-item
+          col-md-3 col-sm-6 col-xs-12
+          d-flex
+          justify-content-center
+        "
+      >
+        <a href=""><i class="{{ polocy.icon }}"></i></a>
+        <span>{{ polocy.description }}</span>
+      </div>
+    </div>
+  </div>
+</div>
