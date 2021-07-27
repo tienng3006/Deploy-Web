@@ -1,11 +1,29 @@
-<div class="slider-banner">
+
   <owl-carousel-o [options]="Options">
-    <ng-container *ngFor="let slide of slidesStore">
-      <ng-template carouselSlide [id]="slide.id">
-        <div class="wrap-content-carousel">
-          <div class="container" [ngStyle]="setStyles(slide.src)"></div>
-        </div>
+    <ng-container >
+      <ng-template carouselSlide>
+          <div class="container">
+            <img src="https://theme.hstatic.net/1000251698/1000330754/14/ms_banner_img1.jpg?v=2912"/>
+          </div>
+          
+      </ng-template>
+      <ng-template carouselSlide>
+          <div class="container">
+            <img src="https://theme.hstatic.net/1000251698/1000330754/14/ms_banner_img2.jpg?v=2912"/>
+          </div>
+          
+      </ng-template>
+      <ng-template carouselSlide>
+          <div class="container">
+            <img src="https://theme.hstatic.net/1000251698/1000330754/14/ms_banner_img3.jpg?v=2912"/>
+          </div>
+          
+      </ng-template>
+      <ng-template carouselSlide>
+          <div class="container">
+            <img src="https://theme.hstatic.net/1000251698/1000330754/14/ms_banner_img4.jpg?v=2912"/>
+          </div>
       </ng-template>
     </ng-container>
   </owl-carousel-o>
-</div>
+
