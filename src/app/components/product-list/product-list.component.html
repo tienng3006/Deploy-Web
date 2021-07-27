@@ -1,0 +1,16 @@
+<div class="container d-flex flex-column justify-content-center">
+  <h3 class="title-section text-center mb-5">Sản phẩm bán chạy</h3>
+  <div class="row flex-wrap">
+    <owl-carousel-o [options]="Options">
+      <ng-container>
+        <ng-template
+          *ngFor="let product of products"
+          carouselSlide
+          [id]="product.category"
+        >
+          <app-product-item [product]="product"> </app-product-item>
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+  </div>
+</div>

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -13,7 +13,8 @@ import { LinePolocyComponent } from './components/line-polocy/line-polocy.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarouselComponent } from './components/carousel/carousel.component';
-
+import { ProductListComponent } from './components/product-list/product-list.component';
+import { ProductItemComponent } from './components/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,13 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     DropDownComponent,
     LinePolocyComponent,
     CarouselComponent,
+    ProductListComponent,
+    ProductItemComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     CarouselModule,
   ],
