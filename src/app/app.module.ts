@@ -16,6 +16,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { BannersComponent } from './components/banners/banners.component';
+import { SwitchProductComponent } from './switch-product/switch-product.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import { BannersComponent } from './components/banners/banners.component';
     ProductListComponent,
     ProductItemComponent,
     BannersComponent,
+    SwitchProductComponent,
   ],
   imports: [
     BrowserModule,
