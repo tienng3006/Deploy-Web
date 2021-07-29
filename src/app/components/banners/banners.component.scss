@@ -1,17 +1,17 @@
 .container {
-    .item {
-        position: relative;
-        overflow: hidden;
-        box-sizing: border-box;
+  margin-top: 60px;
+  .item {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
 
-        img {
-            position: relative;
-            max-width: 100%;
-            transition: all 0.3s ease-in;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
+    img {
+      position: relative;
+      width: 100%;
+      transition: all 0.3s ease-in;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
-
+  }
 }
