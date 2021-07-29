@@ -1,0 +1,10 @@
+<div class="col-12 col-md-3 d-flex flex-column item">
+  <div class="image-product">
+    <a href="#">
+      <img [src]="product?.image" alt="" />
+    </a>
+    <span class="name-product mr-4">{{ product?.name }}</span>
+
+    <span class="price">{{ product?.price | currency: "VND" }}</span>
+  </div>
+</div>
