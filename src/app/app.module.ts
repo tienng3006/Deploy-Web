@@ -13,6 +13,8 @@ import { LinePolocyComponent } from './components/line-polocy/line-polocy.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { ProductComponent } from './model/product/product.component';
+import { BannersComponent } from './components/banners/banners.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     DropDownComponent,
     LinePolocyComponent,
     CarouselComponent,
+    ProductComponent,
+    BannersComponent,
   ],
   imports: [
     BrowserModule,
