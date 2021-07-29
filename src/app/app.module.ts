@@ -13,15 +13,9 @@ import { LinePolocyComponent } from './components/line-polocy/line-polocy.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarouselComponent } from './components/carousel/carousel.component';
-<<<<<<< HEAD
-import { ProductComponent } from './model/product/product.component';
-import { BannersComponent } from './components/banners/banners.component';
-
-=======
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
->>>>>>> 26e1328643ffd2262e1707cbcfb0227e4c67b2e2
-
+import { BannersComponent } from './components/banners/banners.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,13 +26,9 @@ import { ProductItemComponent } from './components/product-item/product-item.com
     DropDownComponent,
     LinePolocyComponent,
     CarouselComponent,
-<<<<<<< HEAD
-    ProductComponent,
-    BannersComponent,
-=======
     ProductListComponent,
     ProductItemComponent,
->>>>>>> 26e1328643ffd2262e1707cbcfb0227e4c67b2e2
+    BannersComponent,
   ],
   imports: [
     BrowserModule,
