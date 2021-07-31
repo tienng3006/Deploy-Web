@@ -18,6 +18,7 @@ import { ProductItemComponent } from './components/product-item/product-item.com
 import { BannersComponent } from './components/banners/banners.component';
 import { SwitchProductComponent } from './switch-product/switch-product.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import { FooterComponent } from './components/footer/footer.component';
     BannersComponent,
     SwitchProductComponent,
     FooterComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,
