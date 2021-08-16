@@ -19,6 +19,8 @@ import { BannersComponent } from './components/banners/banners.component';
 import { SwitchProductComponent } from './switch-product/switch-product.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { PopUpComponent } from './components/pop-up/pop-up.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +37,7 @@ import { ProductDetailsComponent } from './components/product-details/product-de
     SwitchProductComponent,
     FooterComponent,
     ProductDetailsComponent,
+    PopUpComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +45,7 @@ import { ProductDetailsComponent } from './components/product-details/product-de
     HttpClientModule,
     BrowserAnimationsModule,
     CarouselModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -18,7 +18,7 @@ export class LinePolocyComponent implements OnInit {
       id: '2',
       name: 'SUPPORT 24/7',
       icon: 'fas fa-life-ring',
-      description: 'Chat hướng dẫn móc free',
+      description: 'Chat hướng dẫn đan móc free',
     },
     {
       id: '3',

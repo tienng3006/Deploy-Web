@@ -1,0 +1,15 @@
+<button class="btn btn-lg btn-outline-primary" (click)="handleOpenModal()">
+  Đăng nhập
+</button>
+<div class="modal-sign-in" *ngIf="isOpen">
+  <button
+    class="btn btn-lg btn-outline-primary btn-close"
+    (click)="handleOpenModal()"
+  >
+    Close
+  </button>
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <h3>Hallo</h3>
+  </div>
+</div>
