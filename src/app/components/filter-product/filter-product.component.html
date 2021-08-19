@@ -1,0 +1,8 @@
+<div class="container d-flex flex-column justify-content-center">
+  <h3 class="title-section text-center mb-5">Filter</h3>
+  <div class="row flex-wrap">
+    <div class="col-xs-12 col-md-3" *ngFor="let product of productFilter">
+      <app-product-item [product]="product"> </app-product-item>
+    </div>
+  </div>
+</div>

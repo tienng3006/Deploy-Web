@@ -3,26 +3,27 @@ import { ActivatedRoute } from '@angular/router';
 import { Product } from 'src/app/model/product';
 import { ProductService } from 'src/app/service/product.service';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { product, Products } from 'src/app/products';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent implements OnInit {
-  product!: Product;
-  products: Product[] = [];
+  product!: product;
+  products: product[] = Products;
 
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
-    this.getListProduct();
+    // this.getListProduct();
   }
-  getListProduct() {
-    this.productService.getListProducts().subscribe((res: any) => {
-      this.products = res;
-      console.log(res);
-    });
-  }
+  // getListProduct() {
+  //   this.productService.getListProducts().subscribe((res: any) => {
+  //     this.products = res;
+  //     console.log(res);
+  //   });
+  // }
 
   Options: OwlOptions = {
     loop: true,

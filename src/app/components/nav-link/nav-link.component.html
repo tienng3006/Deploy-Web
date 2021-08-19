@@ -1,17 +1,5 @@
-<div class="container">
-  <nav>
-    <li class="dropdown">
-      <a href="">Len </a> <i class="fas fa-angle-down"></i>
-      <ul class="d-none">
-        <li>Thương Hiệu</li>
-        <li>Phân loại</li>
-        <li>Kim loai</li>
-      </ul>
-    </li>
-    <li><a href="">Sản phẩm</a><i class="fas fa-angle-down"></i></li>
-    <li><a href="">Kim móc, kim đan</a><i class="fas fa-angle-down"></i></li>
-    <li class="dropdown">
-      <a href="">Nguyên liệu</a><i class="fas fa-angle-down"></i>
-    </li>
+<div class="container d-flex">
+  <nav *ngFor="let category of listCategory">
+    <app-nav-link-item [category]="category"></app-nav-link-item>
   </nav>
 </div>

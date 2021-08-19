@@ -1,0 +1,11 @@
+<li class="dropdown" *ngIf="category">
+  <a [routerLink]="['/category', category]" href="">{{
+    category | uppercase
+  }}</a>
+  <i class="fas fa-angle-down"></i>
+  <!-- <ul class="d-none">
+      <li>Thương Hiệu</li>
+      <li>Phân loại</li>
+      <li>Kim loai</li>
+    </ul> -->
+</li>

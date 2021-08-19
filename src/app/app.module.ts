@@ -21,6 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { PopUpComponent } from './components/pop-up/pop-up.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FilterProductComponent } from './components/filter-product/filter-product.component';
+import { NavLinkItemComponent } from './components/nav-link-item/nav-link-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +40,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     ProductDetailsComponent,
     PopUpComponent,
+    FilterProductComponent,
+    NavLinkItemComponent,
   ],
   imports: [
     BrowserModule,
