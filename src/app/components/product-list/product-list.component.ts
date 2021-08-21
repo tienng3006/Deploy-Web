@@ -4,6 +4,8 @@ import { Product } from 'src/app/model/product';
 import { ProductService } from 'src/app/service/product.service';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { product, Products } from 'src/app/products';
+import { CartService } from 'src/app/service/cart.service';
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -13,10 +15,13 @@ export class ProductListComponent implements OnInit {
   product!: product;
   products: product[] = Products;
 
-  constructor(private productService: ProductService) {}
+  constructor(
+    private productService: ProductService,
+    private cartService: CartService
+  ) {}
 
   ngOnInit(): void {
-    // this.getListProduct();
+    // this.getListProduct(
   }
   // getListProduct() {
   //   this.productService.getListProducts().subscribe((res: any) => {

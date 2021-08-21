@@ -27,7 +27,7 @@
           "
         >
           <li>
-            <a href="#" class="nav-link text-white">
+            <a routerLink="/cart" class="nav-link text-white">
               <i class="fas fa-cart-plus"></i>
               Giỏ hàng
             </a>
@@ -47,9 +47,12 @@
         />
       </form>
 
-      <div class="text-end">
-        <app-pop-up></app-pop-up>
-        <button type="button" class="btn btn-primary">Đăng kí</button>
+      <div class="text-end d-flex">
+        <app-pop-up [isModal]="isModal" [text]="text"></app-pop-up>
+        <app-pop-up
+          [isModal]="isModalSignIn"
+          [text]="isTextSignIn"
+        ></app-pop-up>
       </div>
     </div>
   </div>

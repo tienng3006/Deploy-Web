@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
 
 @Component({
   selector: 'app-pop-up',
@@ -8,6 +8,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class PopUpComponent implements OnInit {
   isOpen: boolean = false;
+  @Input() text!: boolean;
+  @Input() isModal!: boolean;
   constructor() {}
   handleOpenModal() {
     this.isOpen = !this.isOpen;

@@ -23,6 +23,7 @@ import { PopUpComponent } from './components/pop-up/pop-up.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FilterProductComponent } from './components/filter-product/filter-product.component';
 import { NavLinkItemComponent } from './components/nav-link-item/nav-link-item.component';
+import { CartViewComponent } from './components/cart-view/cart-view.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +43,7 @@ import { NavLinkItemComponent } from './components/nav-link-item/nav-link-item.c
     PopUpComponent,
     FilterProductComponent,
     NavLinkItemComponent,
+    CartViewComponent,
   ],
   imports: [
     BrowserModule,
